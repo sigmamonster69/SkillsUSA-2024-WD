@@ -1,0 +1,15 @@
+* {
+	box
+}
+
+nav {
+	align:center;
+	margin-top: 30px auto;
+	border:brown;
+	color: white;
+
+}
+nav:hover {
+	color: blue;
+
+}
