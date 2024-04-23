@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+/*   background-color: #3f8e74;  */
+  background-color: #3a697b;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+/*   background-color: #3f8e74;  */
+  background-color: #3a697b;
+} 
+.button {
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+}
+
+.box {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  flex-wrap: wrap; 
+}
+.ticket {
+  width: 236px;
+  height: 590px;
+  background-color: gray;
+  padding-top: 20px;
+  transform: scale(0.8);
+}
+.label {
+  height: 70px;
+  background-color: #120904;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+.serial {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  font-size: 36px;
+  font-weight: 300;
+}
+.rate {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.grid_wrapper {
+  padding: 8px 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+  grid-template-rows: repeat(8, 40px);
+  /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+  gap: 0px 0px;
+  grid-template-areas:
+    "name . . . message"
+    "name . . . message"
+    "name . . . message"
+    "name . . . message"
+    "name . . . message"
+    "name . . . message"
+    "name . . . message"
+    "name . . . message";
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-bottom: 0;
+}
+.name {
+  grid-area: name;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.message {
+  grid-area: message;
+  border-left: 1px solid rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.number {
+  border-left: 1px solid rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+/* Colors */
+.yellow {
+  background-color: #c2b27e;
+}
+.blue {
+  background-color: #c6dee2;
+}
+.magenta {
+  background-color: #ab5d87;
+}
+
+h1 {
+  color: #e8fffb;
+  margin: 50px auto 0;
+  text-align: center;
+}
+
+.box {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  flex-wrap: wrap; 
+}
+.ticket {
+  width: 236px;
+  height: 590px;
+  background-color: gray;
+  padding-top: 20px;
+  transform: scale(0.8);
+}
+.label {
+  height: 70px;
+  background-color: #120904;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+.serial {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  font-size: 36px;
+  font-weight: 300;
+}
+.rate {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.grid_wrapper {
+  padding: 8px 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+  grid-template-rows: repeat(8, 40px);
+  /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+  gap: 0px 0px;
+  grid-template-areas:
+    "name . . . message"
+    "name . . . message"
+    "name . . . message"
+    "name . . . message"
+    "name . . . message"
+    "name . . . message"
+    "name . . . message"
+    "name . . . message";
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-bottom: 0;
+}
+.name {
+  grid-area: name;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.message {
+  grid-area: message;
+  border-left: 1px solid rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.number {
+  border-left: 1px solid rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+/* Colors */
+.yellow {
+  background-color: #c2b27e;
+}
+.blue {
+  background-color: #c6dee2;
+}
+.magenta {
+  background-color: #ab5d87;
+}
